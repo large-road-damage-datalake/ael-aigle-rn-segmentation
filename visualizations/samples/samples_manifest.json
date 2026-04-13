@@ -1,0 +1,226 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F01b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_C18b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 3,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F07b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 5,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F03b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F02b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F10a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 5,
+      "image_size": {
+        "width": 991,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 991,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F03a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 3,
+      "image_size": {
+        "width": 991,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 991,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F12b.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 3,
+      "image_size": {
+        "width": 311,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 311,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F02a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 10,
+      "image_size": {
+        "width": 991,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 991,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_C18a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 16,
+      "image_size": {
+        "width": 991,
+        "height": 462
+      },
+      "resized_from": {
+        "width": 991,
+        "height": 462
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

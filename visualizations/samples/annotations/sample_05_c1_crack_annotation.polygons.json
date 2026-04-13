@@ -1,0 +1,39 @@
+{
+  "format": "polygon",
+  "source": "mask",
+  "image": {
+    "width": 311,
+    "height": 462
+  },
+  "polygons": [
+    {
+      "id": 1,
+      "label": "crack",
+      "area_px": 143042.0,
+      "bbox": [
+        0,
+        0,
+        311,
+        462
+      ],
+      "points": [
+        [
+          310,
+          461
+        ],
+        [
+          0,
+          461
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          310,
+          0
+        ]
+      ]
+    }
+  ]
+}
