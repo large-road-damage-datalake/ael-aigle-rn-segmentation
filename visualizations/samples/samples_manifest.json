@@ -7,7 +7,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 2,
+      "objects": 4,
       "image_size": {
         "width": 311,
         "height": 462
@@ -29,7 +29,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 3,
+      "objects": 1,
       "image_size": {
         "width": 311,
         "height": 462
@@ -51,7 +51,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 5,
+      "objects": 3,
       "image_size": {
         "width": 311,
         "height": 462
@@ -68,18 +68,18 @@
     },
     {
       "file": "sample_04_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F03b.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F01a.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 1,
+      "objects": 7,
       "image_size": {
-        "width": 311,
+        "width": 991,
         "height": 462
       },
       "resized_from": {
-        "width": 311,
+        "width": 991,
         "height": 462
       },
       "annotation_mode": "mask",
@@ -95,7 +95,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 1,
+      "objects": 3,
       "image_size": {
         "width": 311,
         "height": 462
@@ -117,7 +117,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 5,
+      "objects": 15,
       "image_size": {
         "width": 991,
         "height": 462
@@ -134,18 +134,18 @@
     },
     {
       "file": "sample_07_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F03a.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F05b.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
       "objects": 3,
       "image_size": {
-        "width": 991,
+        "width": 311,
         "height": 462
       },
       "resized_from": {
-        "width": 991,
+        "width": 311,
         "height": 462
       },
       "annotation_mode": "mask",
@@ -161,7 +161,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 3,
+      "objects": 17,
       "image_size": {
         "width": 311,
         "height": 462
@@ -178,12 +178,12 @@
     },
     {
       "file": "sample_09_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F02a.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_C18a.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 10,
+      "objects": 2,
       "image_size": {
         "width": 991,
         "height": 462
@@ -200,12 +200,12 @@
     },
     {
       "file": "sample_10_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_C18a.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/AIGLE_RN/images\\AIGLE_RN_F02a.jpg",
       "classes": [
         "crack"
       ],
       "num_classes": 1,
-      "objects": 16,
+      "objects": 4,
       "image_size": {
         "width": 991,
         "height": 462

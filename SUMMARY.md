@@ -4,5 +4,5 @@
 - Subset: AIGLE_RN
 - Task: segmentation
 - Image count: 38
-- Annotation count: 173
+- Annotation count: 210
 - Class setup: 1 (crack)

@@ -18,30 +18,32 @@
     "13",
     "14",
     "15",
-    "16"
+    "16",
+    "17"
   ],
   "y_labels": [
     "crack"
   ],
   "z": [
     [
-      0,
-      8,
-      6,
-      7,
       1,
+      5,
+      5,
+      5,
       6,
-      0,
-      2,
-      3,
       1,
       2,
-      0,
+      2,
+      2,
+      4,
+      1,
       0,
       0,
       0,
       1,
-      1
+      1,
+      0,
+      2
     ]
   ],
   "description": "Value = number of images where class has exactly x objects."
