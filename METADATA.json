@@ -26,7 +26,8 @@
     "task_subtype": "semantic_segmentation",
     "family_name": "AEL",
     "subset_name": "AIGLE_RN",
-    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS."
+    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS.",
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Road-surface imaging setup",
@@ -57,7 +58,9 @@
           "id": 1,
           "name": "crack",
           "description": "AEL AIGLE_RN class: crack",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack",
+          "instances": 210
         }
       ]
     }
@@ -148,5 +151,31 @@
     "article_title": "Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection",
     "journal": "IEEE Transactions on Intelligent Transportation Systems",
     "year": 2016
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
   }
 }
