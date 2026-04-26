@@ -6,7 +6,7 @@ This package contains the AIGLE_RN subset from AEL as a segmentation benchmark.
 
 - Task: segmentation
 - Images: 38
-- Annotations: 210
+- Annotations: 205
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 

@@ -22,12 +22,12 @@
       "primary_task": "segmentation",
       "task_subtype": "semantic_segmentation"
     },
+    "label_taxonomy_version": "road_damage_v2",
     "segmentation_type": "semantic_segmentation",
     "task_subtype": "semantic_segmentation",
     "family_name": "AEL",
     "subset_name": "AIGLE_RN",
-    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS.",
-    "label_taxonomy_version": "road_damage_v1"
+    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS."
   },
   "imaging_setup": {
     "camera": "Road-surface imaging setup",
@@ -47,6 +47,25 @@
         "resolution": "991x462",
         "count": 19
       }
+    ],
+    "resolution_by_country": [
+      {
+        "name": "France",
+        "resolutions": [
+          "311x462",
+          "991x462"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "311x462",
+            "count": 19
+          },
+          {
+            "resolution": "991x462",
+            "count": 19
+          }
+        ]
+      }
     ]
   },
   "annotation_schema": [
@@ -57,25 +76,59 @@
         {
           "id": 1,
           "name": "crack",
+          "canonical_name": "crack",
           "description": "AEL AIGLE_RN class: crack",
           "color": "#294F71",
-          "canonical_name": "crack",
-          "instances": 210
+          "source_labels": [
+            "crack"
+          ],
+          "instances": 205
         }
       ]
     }
   ],
+  "class_taxonomy": {
+    "version": "road_damage_v2",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
+  },
   "statistics": {
     "n_images": 38,
-    "n_annotations": 210,
+    "n_annotations": 205,
     "n_images_with_annotations": 37,
-    "average_annotations_per_image": 5.526315789473684,
+    "average_annotations_per_image": 5.394736842105263,
     "dataset_size": "4.23 MB",
     "dataset_size_bytes": 4439380,
     "dataset_file_count": 76,
     "image_format": "png_masks",
     "class_distribution": {
-      "crack": 210
+      "crack": 205
     },
     "split": {
       "data": {
@@ -151,36 +204,5 @@
     "article_title": "Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection",
     "journal": "IEEE Transactions on Intelligent Transportation Systems",
     "year": 2016
-  },
-  "class_taxonomy": {
-    "version": "road_damage_v2",
-    "classes": [
-      {
-        "canonical_name": "crack",
-        "display_name": "Crack",
-        "damage_family": "crack",
-        "damage_subtype": "generic",
-        "role": "damage_target",
-        "semantic_role": "damage",
-        "training_role": "target",
-        "status": "stable",
-        "is_damage_target": true,
-        "aliases": [
-          "crack",
-          "cracked"
-        ],
-        "source_labels": [
-          "crack"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      }
-    ],
-    "damage_types": [
-      "crack"
-    ],
-    "unresolved_labels": []
   }
 }
